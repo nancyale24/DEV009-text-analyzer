@@ -66,7 +66,7 @@ margin: 0px;
 padding: 10px;
 display: flex;
 flex-wrap: wrap;
-margin: 0 autob;
+margin: 0 auto;
 }
 
 p{text-align: center; color: #ffffff;}
