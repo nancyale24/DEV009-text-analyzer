@@ -55,7 +55,7 @@ textarea[name="user-input"]{ /* selectores de atributo:  para dar estilo al <tex
    box-shadow: 2px 5px #d487bc;
    display: flex;  
    flex-wrap: wrap;
-   margin: 0 auto;
+   margin: 0px auto;
    }
 
 #reset-button{  /*selector por Id*/
@@ -66,7 +66,7 @@ margin: 0px;
 padding: 10px;
 display: flex;
 flex-wrap: wrap;
-margin: 0 auto;
+margin: 0px auto;
 }
 
 p{text-align: center; color: #ffffff;}
