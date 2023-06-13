@@ -1,0 +1,79 @@
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: white;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+  }
+
+  header{
+    background-color:#E6089F;
+    height: 90px;
+    padding: 2px;
+  }
+  h1{text-align: center; color: #ffffff;}
+
+  section{
+    background-color:#ffffff;
+    height: 540px;
+    padding: 2px;
+  }
+  .conteiner{
+    display: flex; /*elimina el espacio de bloque a inline uno a lado de otro*/
+    justify-content: space-around;
+    flex-wrap: wrap; /*toma el contenido que no encaja en el contenedor y los pasa a la sig linea*/
+    list-style-type: none; /*elimina punto de inicio*/
+    padding: 10px;
+    margin: 3px;
+    border: 1px;
+    }
+
+  .metrics{
+    height: 2rem;
+    line-height: 2rem;
+    width: auto;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 1px;
+    border-right: 1px solid #C65D7B;
+    border-top: 1px solid #C65D7B;
+    border-bottom: 1px solid #C65D7B;
+    border-left: 3px solid #C65D7B;
+}
+
+/*li.characters{background-color:#E6089F;} a todas las etiquetas li que ontengan una clas de chraracters agregales este estilo EX */
+
+textarea[name="user-input"]{ /* selectores de atributo:  para dar estilo al <textarea> usando el atributo name*/
+   padding: 10px;
+   width: 700px;
+   border-radius: 6px;
+   box-shadow: 2px 5px #d487bc;
+   display: flex;  
+   flex-wrap: wrap;
+   margin: 0 auto;
+   }
+
+#reset-button{  /*selector por Id*/
+background-color: #ffffff;
+border: solid 1px;
+border-radius: 6px;
+margin: 0px;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+
+p{text-align: center; color: #ffffff;}
+
+  footer{
+    background-color:#E6089F;
+    height: 90px;
+    padding: 2px;
+  }
+
