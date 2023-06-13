@@ -22,4 +22,9 @@ button.addEventListener('click', function(){
   textArea.value = '';
   metrics[0].innerHTML = 'Word Cont: ';
   metrics[1].innerHTML = 'Character Count: '; //establece el contenido de la posicion 0 a 'characters'
+  metrics[2].innerHTML = 'Character Count Excluding Spaces: ';
+  metrics[3].innerHTML = 'Number Count: ';
+  metrics[4].innerHTML = 'Number Count Sum: ';
+  metrics[5].innerHTML = 'Average Word Length: ';
+  
 })

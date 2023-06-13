@@ -14,11 +14,13 @@ const analyzer = {
   },
   getCharacterCountExcludingSpaces: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
-    const regex = /\S/g; //Es una expresión regular donde \s significa "coincidir con espacios en blanco" 
+    const textRempl = text.replace(/[^\w\s]|_/g, "").replace(/\s+/g, ""); //Es una expresión regular donde \s significa "coincidir con espacios en blanco" 
+    
     //y g es una bandera que significa "global", es decir, coincide con todos los 
     //espacios en blanco, no solo con el primero.
-    
-    return text.split(regex).length - 1;
+    const sinEspacio = textRempl.length;
+    return sinEspacio;
+
   },
 
   getAverageWordLength: (text) => {    
@@ -29,7 +31,7 @@ const analyzer = {
     for(let i=0; i<aveLeng.length; i++){
       sumaAveLeng += aveLeng[i].length
     }
-    return Math.round(sumaAveLeng/aveLeng.length);
+    return Math.round(sumaAveLeng/aveLeng.length * 100) / 100; //redondear el valor
     
 
   },
@@ -81,7 +83,7 @@ const analyzer = {
         continue;
       }  
       if(!isNaN(cadenaN[i])){
-        sumNumber = sumNumber + parseFloat(cadenaN[i]); //el dato lo convierte a entero
+        sumNumber = sumNumber + parseFloat(cadenaN[i]); //el dato lo convierte a float
       }
     }
     return sumNumber;

@@ -23,7 +23,7 @@ body{
     height: 540px;
     padding: 2px;
   }
-  .conteiner{
+  .conteiner{   /*  ul */
     display: flex; /*elimina el espacio de bloque a inline uno a lado de otro*/
     justify-content: space-around;
     flex-wrap: wrap; /*toma el contenido que no encaja en el contenedor y los pasa a la sig linea*/
@@ -33,7 +33,7 @@ body{
     border: 1px;
     }
 
-  .metrics{
+  .metrics{      /*  li */
     height: 2rem;
     line-height: 2rem;
     width: auto;
@@ -66,7 +66,7 @@ margin: 0px;
 padding: 10px;
 display: flex;
 flex-wrap: wrap;
-margin: 0 auto;
+margin: 0 autob;
 }
 
 p{text-align: center; color: #ffffff;}
