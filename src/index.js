@@ -7,10 +7,10 @@ const metrics = document.querySelectorAll('li'); //trae toda la lista de nodos l
 
 textArea.addEventListener('keyup', function(){ // escucha el evento keyup del textarea, cuando se escribe en el cuadro de texto 
 
-  metrics[0].innerHTML = 'Word Count: ' + analyzer.getWordCount(textArea.value);
-  metrics[1].innerHTML = 'Character Count: ' + analyzer.getCharacterCount(textArea.value); //concatenacion del texto con el metodo getCharacterCount
-  metrics[2].innerHTML = 'Character Count Excluding Spaces: ' + analyzer.getCharacterCountExcludingSpaces(textArea.value);
-  metrics[3].innerHTML = 'Number Count: ' + analyzer.getNumberCount(textArea.value);
+  metrics[0].innerHTML = 'Character Count: ' + analyzer.getCharacterCount(textArea.value);
+  metrics[1].innerHTML = 'Word Count: ' + analyzer.getWordCount(textArea.value); //concatenacion del texto con el metodo getCharacterCount
+  metrics[2].innerHTML = 'Number Count: ' + analyzer.getNumberCount(textArea.value);
+  metrics[3].innerHTML = 'Character Excluding Spaces: ' + analyzer.getCharacterCountExcludingSpaces(textArea.value);
   metrics[4].innerHTML = 'Number Sum: ' + analyzer.getNumberSum(textArea.value);
   metrics[5].innerHTML = 'Average Word Length: ' + analyzer.getAverageWordLength(textArea.value);
 //console.log(textArea.value);
