@@ -23,14 +23,18 @@ body{
     height: 540px;
     padding: 2px;
   }
-  .conteiner{   /*  ul */
+  .conteiner{  
+    padding: 10px;
+    margin: 3px;
+    border-width: 1px;
+    background-color:#ffffff;
+    height: auto;
+    width: auto; /*  ul */
     display: flex; /*elimina el espacio de bloque a inline uno a lado de otro*/
     justify-content: space-around;
     flex-wrap: wrap; /*toma el contenido que no encaja en el contenedor y los pasa a la sig linea*/
     list-style-type: none; /*elimina punto de inicio*/
-    padding: 10px;
-    margin: 3px;
-    border: 1px;
+    
     }
 
   .metrics{      /*  li */
@@ -44,6 +48,7 @@ body{
     border-top: 1px solid #C65D7B;
     border-bottom: 1px solid #C65D7B;
     border-left: 3px solid #C65D7B;
+    background-color: #ffffff;
 }
 
 /*li.characters{background-color:#E6089F;} a todas las etiquetas li que ontengan una clas de chraracters agregales este estilo EX */

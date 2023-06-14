@@ -6,11 +6,11 @@ const analyzer = {
     return text.split(' ').length; //metodo slip toma una cadena como argumento y devuelve una matriz de subcadenas. La matriz contiene todas las palabras de la cadena original
   //length devuelve un numero entero que representa el numero de palabras en la cadena                     
   },
-  // console.log('Primer resultado: ' + text)
 
   getCharacterCount: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
-    return text.length; 
+    const textoCaracter = text.trim();
+    return textoCaracter.length; 
   },
   getCharacterCountExcludingSpaces: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.

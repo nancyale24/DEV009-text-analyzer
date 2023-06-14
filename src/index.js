@@ -7,12 +7,12 @@ const metrics = document.querySelectorAll('li'); //trae toda la lista de nodos l
 
 textArea.addEventListener('keyup', function(){ // escucha el evento keyup del textarea, cuando se escribe en el cuadro de texto 
 
-  metrics[0].innerHTML = 'Character Count: ' + analyzer.getCharacterCount(textArea.value);
-  metrics[1].innerHTML = 'Word Count: ' + analyzer.getWordCount(textArea.value); //concatenacion del texto con el metodo getCharacterCount
-  metrics[2].innerHTML = 'Number Count: ' + analyzer.getNumberCount(textArea.value);
-  metrics[3].innerHTML = 'Character Excluding Spaces: ' + analyzer.getCharacterCountExcludingSpaces(textArea.value);
-  metrics[4].innerHTML = 'Number Sum: ' + analyzer.getNumberSum(textArea.value);
-  metrics[5].innerHTML = 'Average Word Length: ' + analyzer.getAverageWordLength(textArea.value);
+  metrics[0].innerHTML = 'Caracteres: ' + analyzer.getCharacterCount(textArea.value);
+  metrics[1].innerHTML = 'Caracteres Sin Espacio: ' + analyzer.getCharacterCountExcludingSpaces(textArea.value);
+  metrics[2].innerHTML = 'Palabras: ' + analyzer.getWordCount(textArea.value); //concatenacion del texto con el metodo getCharacterCount
+  metrics[3].innerHTML = 'Números: ' + analyzer.getNumberCount(textArea.value);
+  metrics[4].innerHTML = 'Suma números: ' + analyzer.getNumberSum(textArea.value);
+  metrics[5].innerHTML = 'Promedio longitud: ' + analyzer.getAverageWordLength(textArea.value);
 //console.log(textArea.value);
 })
 
@@ -20,11 +20,11 @@ textArea.addEventListener('keyup', function(){ // escucha el evento keyup del te
 const button = document.getElementById("reset-button");
 button.addEventListener('click', function(){
   textArea.value = '';
-  metrics[0].innerHTML = 'Word Cont: ';
-  metrics[1].innerHTML = 'Character Count: '; //establece el contenido de la posicion 0 a 'characters'
-  metrics[2].innerHTML = 'Character Count Excluding Spaces: ';
-  metrics[3].innerHTML = 'Number Count: ';
-  metrics[4].innerHTML = 'Number Count Sum: ';
-  metrics[5].innerHTML = 'Average Word Length: ';
+  metrics[0].innerHTML = 'Caracteres: ';
+  metrics[1].innerHTML = 'Caracteres Sin Espacio: '; //establece el contenido de la posicion 0 a 'characters'
+  metrics[2].innerHTML = 'Palabras ';
+  metrics[3].innerHTML = 'Números: ';
+  metrics[4].innerHTML = 'Suma números: ';
+  metrics[5].innerHTML = 'APromedio longitud: ';
   
 })
