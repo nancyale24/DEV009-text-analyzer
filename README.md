@@ -739,4 +739,5 @@ En esta aplicación se desarrollo un sitio web que contiene un analizador de tex
 Para el desarollo de este proyecto se realizo un prototipo de baja fidelidad tomando en cuenta los requerimientos del usuario.
 
 ![](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/bocetoTextAnalizer.png)
+![](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/bocetoTextAnalizer.png)
 
