@@ -12,6 +12,7 @@
 * [8. Consideraciones para pedir tu Project Feedback](#8-consideraciones-para-pedir-tu-project-feedback)
 * [9. Objetivos de aprendizaje](#9-objetivos-de-aprendizaje)
 * [10. Funcionalidades opcionales](#10-funcionalidades-opcionales)
+* [Funcionamiento de la aplicación](#11-https://pages.github.com/)
 
 ***
 
