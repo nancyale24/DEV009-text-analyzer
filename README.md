@@ -730,4 +730,4 @@ en los archivos [test/analyzer.spec.js](test/analyzer.spec.js) y
 
 
 
-#Text Analizer By Nancy A Mendoza V
+# Text Analizer By Nancy A Mendoza V
