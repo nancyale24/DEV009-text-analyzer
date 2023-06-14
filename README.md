@@ -1,11 +1,30 @@
 # Analizador de texto
 
-## Índice
+En esta aplicación se desarrollo un sitio web que contiene un analizador de texto el cual le permite al usario mostrar algunas metricas necesarias que brindan información básica, como por ejemplo el conteo de palabras que se encuentra en la cadena de texto que escribe o por ejemplo el número de carcacteres sin espacio, entre otras funciones más que se describen a continuación
+En el siguiente link puedes encontrar el [Demo](https://nancyale24.github.io/DEV009-text-analyzer/src/)
 
-* [1. Consideraciones generales](#1-consideraciones-generales)
+
+
+Para el desarollo de este proyecto se realizo un prototipo de baja fidelidad tomando en cuenta los requerimientos del usuario.
+![prototipo de baja fidelidad](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/bocetoTextAnalizer.png)
+
+
+
+
+![](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/proyecto.png)
+## Índice
+* [1. Información general ](#1-consideraciones-generales)
+* [2. Tecnologías utilizadas](#2-tecnologias-utilizadas)
+* [3. Funcionalidades](#3-funcionalidades)
+
+
+
+
+
+* [1. Información general ](#1-consideraciones-generales)
 * [2. Preámbulo](#2-preámbulo)
 * [3. Funcionalidades](#3-funcionalidades)
-* [4. Boilerplate](#4-boilerplate)
+
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Pruebas](#6-pruebas)
 * [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
@@ -16,14 +35,19 @@
 
 ***
 
-## 1. Consideraciones generales
 
-* Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
+
+## 1. Información general
+
+Un analizador de texto es una aplicación para extraer información útil de un texto utilizando diversas técnicas, como el procesamiento del lenguaje natural (NLP), el aprendizaje automático (ML) y el análisis estadístico. Estas aplicaciones pueden proporcionar una variedad de métricas que brindan información básica sobre la longitud y la estructura del texto como por ejemplo, el conteo de palabras, el conteo de caracteres, el conteo de oraciones y el conteo de párrafos. Otras métricas incluyen el análisis de sentimientos, que utiliza técnicas de NLP para determinar el tono general positivo, negativo o neutral del texto, y el análisis de legibilidad, que utiliza algoritmos para evaluar la complejidad y la legibilidad del texto.
+
+En general, las aplicaciones de análisis de texto brindan información valiosa y métricas sobre los textos que pueden ayudar a los usuarios a tomar decisiones informadas y sacar conclusiones significativas. Mediante el uso de estas herramientas de análisis, los usuarios pueden obtener una comprensión más profunda de los textos.
+
+## 2. Tecnologías utilizadas 
+
+
+
+
 
 ## 2. Preámbulo
 
@@ -50,7 +74,7 @@ tomar decisiones informadas y sacar conclusiones significativas.
 Mediante el uso de estas herramientas de análisis, los usuarios pueden
 obtener una comprensión más profunda de los textos.
 
-## 3. Funcionalidades
+## 3. Funcionalidades 
 
 En este proyecto implementarás un analizador de texto web para calcular
 y mostrar métricas de un texto enviado por el usuario.
@@ -738,6 +762,21 @@ En esta aplicación se desarrollo un sitio web que contiene un analizador de tex
 
 Para el desarollo de este proyecto se realizo un prototipo de baja fidelidad tomando en cuenta los requerimientos del usuario.
 
-![](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/bocetoTextAnalizer.png)
-![](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/bocetoTextAnalizer.png)
+
+Se realizo el boceto con los requerimientos especificos: HTML semantico, con los elementos  [`<header>`], [`<section>`] y [`<footer>`]
+dentro del [`<header>`] se encuentra un [`<h1>`] el cual tiene un Título Analizador de Textos.
+
+En [`<section>`] de incluyeron los elementos de una lista en los que se mostraran las metricas para **caracteres**, **Carcateres sin espacio**, **Palabras*, **Números**, **Suma número** y **Promedio longitud**
+
+###Funciones que realiza 
+**caracteres** Esta función retorna el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
+**Carcateres sin espacio**
+**Palabras**
+**Números**
+**Suma número** 
+**Promedio longitud**
+
+
+
+
 

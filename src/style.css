@@ -38,17 +38,19 @@ body{
     }
 
   .metrics{      /*  li */
-    height: 2rem;
-    line-height: 2rem;
-    width: auto;
-    border-radius: 6px;
     padding: 20px;
     margin: 1px;
+    height: 2rem;
+    border-width: 1px;
+    line-height: 2rem;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 6px;
     border-right: 1px solid #C65D7B;
     border-top: 1px solid #C65D7B;
     border-bottom: 1px solid #C65D7B;
     border-left: 3px solid #C65D7B;
-    background-color: #ffffff;
+    
 }
 
 /*li.characters{background-color:#E6089F;} a todas las etiquetas li que ontengan una clas de chraracters agregales este estilo EX */
