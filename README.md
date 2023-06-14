@@ -736,6 +736,7 @@ en los archivos [test/analyzer.spec.js](test/analyzer.spec.js) y
 
 En esta aplicación se desarrollo un sitio web que contiene un analizador de texto el cual le permite al usario mostrar algunas metricas necesarias que brindan información básica, como por ejemplo el conteo de palabras que se encuentra en la cadena de texto que escribe o por ejemplo el número de carcacteres sin espacio, entre otras funciones más que se describen a continuación
 
-Para el desarollo de este proyecto se realizo un prototipo de baja fidelidad tomando en cuenta los requerimientos del usuario, 
+Para el desarollo de este proyecto se realizo un prototipo de baja fidelidad tomando en cuenta los requerimientos del usuario.
+
 ![](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/bocetoTextAnalizer.png)
 
