@@ -66,8 +66,9 @@ resultado en tiempo real a medida que el usuario escribe su texto:
 
 
 ## 4. Screenshots
+![Prototipo de baja fidelidad](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/bocetoTextAnalizer.png)
 
-![](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/proyecto.png)
+![Proyecto final](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/proyecto.png)
 
 ## 5. Boilerplate
 
