@@ -1,17 +1,10 @@
-# Analizador de texto
+# Analizador de texto 
 
 En esta aplicación se desarrollo un sitio web que contiene un analizador de texto el cual le permite al usario mostrar algunas metricas necesarias que brindan información básica, como por ejemplo el conteo de palabras que se encuentra en la cadena de texto que escribe o por ejemplo el número de carcacteres sin espacio, entre otras funciones más que se describen a continuación
 En el siguiente link puedes encontrar el [Demo](https://nancyale24.github.io/DEV009-text-analyzer/src/)
 
 
 
-Para el desarollo de este proyecto se realizo un prototipo de baja fidelidad tomando en cuenta los requerimientos del usuario.
-![prototipo de baja fidelidad](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/bocetoTextAnalizer.png)
-
-
-
-
-![](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/proyecto.png)
 ## Índice
 * [1. Información general ](#1-información-general)
 * [2. Tecnologías utilizadas](#2-tecnologías-utilizadas)
@@ -24,7 +17,6 @@ Para el desarollo de este proyecto se realizo un prototipo de baja fidelidad tom
 * [9. Instalación ](#9-instalación)
 * [10. Pruebas](#10-pruebas)
 ***
-
 
 
 ## 1. Información general
@@ -74,7 +66,8 @@ resultado en tiempo real a medida que el usuario escribe su texto:
 
 
 ## 4. Screenshots
-![Text analyzer](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/proyecto.png")
+
+![](https://github.com/nancyale24/DEV009-text-analyzer/blob/main/proyecto.png)
 
 ## 5. Boilerplate
 
